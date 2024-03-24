@@ -1,4 +1,4 @@
-import { helloWorld } from "./helloWorld";
-import { addImage } from "./addImage";
-helloWorld();
-addImage();
+import helloWorldButton from "./components/helloWorldButton/helloWorldButton.js";
+
+const myButton = new helloWorldButton();
+myButton.render();
